@@ -31,7 +31,7 @@ public class JQueryServlet extends HttpServlet {
 	        }
 	         
 	        String greetings = "Hello " + userName;
-	         
+	         //forked and submitted varthu//
 	        response.setContentType("text/plain");
 	        response.getWriter().write(greetings);
 	}
